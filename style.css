@@ -191,7 +191,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -298,4 +298,134 @@ form .btn-enviar input{
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
+}
+
+/**/
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px #ffffff1d;
+}
+
+footer .flex{
+justify-content: space-between;
+
+}
+
+footer.line-footer{
+    padding: 20px 0;
+    border-bottom: 2px ;
+}
+
+.borda{
+    border-top: 2px solid #0044ff;
+}
+
+footer .line-footer p i{
+    color: #0044ff;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+}
+
+@media screen and (max-width: 1020px){
+    /* gerais */
+    .flex{
+        flex-direction: column;
+    }
+
+    h2.titulo{
+        
+        font-size: 34px;
+        line-height: 30px;
+        }
+
+    .topo .flex{
+        flex-direction: column-reverse;
+    }
+
+    /* cabeca */
+    .menu-desktop, .btn-contato{
+        display: none;
+
+    }
+
+    /*  */
+    section.topo .flex{
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    section.topo{
+        padding: 20px 4%;
+    }
+
+    .topo h1{
+    
+        font-size: 30px;
+        
+    }
+
+    .topo .img-topo img{
+        width: 100%;
+    }
+
+    /*  */
+    section.especialidades{
+        padding: 40px 8%;
+    
+    }
+
+    section.sobre{
+        padding: 80px 8%;
+    }
+
+    .section .txt-sobre h2{
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social{
+        text-align: center;
+    }
+
+    .img-sobre img{
+        width: 100%;
+
+    }
+
+    section.portifolio{
+        padding: 80px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+        height:460px;
+        color: #0044ff;
+        background-size:cover ;
+        background-position: 100% 0%;
+        transition: 4s;
+        cursor: pointer;
+        border-radius: 40px;
+        position: relative;
+        }
+    
+     section.topo .flex{
+            gap: 60px;
+        }
+
+    footer .flex{
+            flex-direction: column;
+            
+            }
+
+    footer.line-footer{
+               text-align: center;
+            }
+            
 }
